@@ -1,0 +1,12 @@
+.user-pass {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px; 
+}
+.user-pass .form-group {
+  flex: 1;
+}
+.user-pass input {
+  width: 100%;
+  box-sizing: border-box;
+}
