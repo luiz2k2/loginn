@@ -4,7 +4,7 @@ import { FaFacebookF, FaGoogle, FaApple } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 function App() {
-  return (
+ return (
     <div className="login-container">
       <h1>LOGIN</h1>
 

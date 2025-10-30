@@ -5,49 +5,48 @@ import { Link } from "react-router-dom";
 
 function Cadastro() {
   return (
-    <div className="cadastro-container">
+    
+    <div className="login-container">
       <h1>CADASTRO</h1>
 
       <div className="form-group">
-        <label htmlFor="nome">Nome:</label>
-        <input type="text" id="nome" placeholder="Digite seu nome completo" />
+        <label htmlFor="Nome">Nome:</label>
+        <input type="text" id="usuario" placeholder="" />
       </div>
 
       <div className="form-group">
-        <label htmlFor="email">E-mail:</label>
-        <input type="email" id="email" placeholder="Digite seu e-mail" />
+        <label htmlFor="Email">E-mail:</label>
+        <input type="password" id="usuario" placeholder="" />
       </div>
 
       <div className="form-group">
-        <label htmlFor="cpf">CPF:</label>
-        <input type="text" id="cpf" placeholder="Digite seu CPF" />
+        <label htmlFor="CPF">CPF:</label>
+        <input type="text" id="usuario" placeholder="" />
       </div>
 
-      <div className="form-row">
-        <div className="form-group">
-          <label htmlFor="usuario">Usuário:</label>
-          <input type="text" id="usuario" placeholder="Crie seu usuário" />
-        </div>
-
-        <div className="form-group">
-          <label htmlFor="senha">Senha:</label>
-          <input type="password" id="senha" placeholder="Crie sua senha" />
-        </div>
+        <div className="user-pass">
+      <div className="form-group">
+        <label htmlFor="Usuario">Usuário:</label>
+        <input type="text" id="usuario" placeholder="" />
       </div>
 
-      <button className="btn-cadastrar">CADASTRAR</button>
+      <div className="form-group">
+        <label htmlFor="Senha">Senha:</label>
+        <input type="password" id="senha" placeholder="" />
+      </div>
+    </div>
 
-      <p>OU CADASTRAR COM</p>
+
+
+
+
+      <button className="btn-login">CADASTRAR</button>
+
+      <p>OU LOGAR COM</p>
       <div className="social-login">
-        <button className="facebook">
-          <FaFacebookF />
-        </button>
-        <button className="google">
-          <FaGoogle />
-        </button>
-        <button className="apple">
-          <FaApple />
-        </button>
+        <button className="facebook"><FaFacebookF /></button>
+        <button className="google"><FaGoogle /></button>
+        <button className="apple"><FaApple /></button>
       </div>
 
       <small>
